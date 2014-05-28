@@ -1,0 +1,50 @@
+<html>
+  <head>
+    <script type="text/javascript" src="freta_wrapper.js"></script>
+    <script>
+      
+      var fretala = new FretaWrapper('sandbox');
+      //get token from the server and set it using setToken
+      fretala.setToken('qOcIORFJdWs7Qs+KfrjngUSjqTRWIalD1Ai1auoRh2g='); 
+      
+      //Uncomment examples to test them!
+      /*
+      fretala.getCards(function(err, result) {
+        if(err) {
+          alert(err);
+        }
+        console.log(result);
+      });
+      */
+
+      /*
+      var cardData = {
+        'name': '234',
+        'number': '4111111111111111',
+        'cvv': '123',
+        'expDate': '201812'
+      };
+
+      fretala.insertCard(cardData, function(err, result) {
+        if(err) {
+          alert(err);
+        }
+        console.log(result);
+      });
+      */
+
+      /*
+      var cardToken = 'car_acc56f792346af0a198da2b43327519eb6ead0f2';
+      fretala.deleteCard(cardToken, function(err, result) {
+        if(err) {
+          alert(err);
+        }
+        console.log(result);
+      });
+      */
+
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
