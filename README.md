@@ -20,7 +20,7 @@ Para cada operação, é necessário obter uma token do servidor e setá-la da s
 ```javascript
 fretala.setToken('qOcIORFJdWs7Qs+KfrjngUSjqTRWIalD1Ai1auoRh2g='); 
 ```
-Para mais detalhes, veja nossa guia de integração.
+Para mais detalhes, veja nosso guia de integração.
 
 ### Inserir cartão:
 
